@@ -1,0 +1,34 @@
+–0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/controller/App.java
+¨0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/controller/SolarSystemController.java
+’0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/model/Moon.java
+”0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/model/Planet.java
+™0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/model/SolarSystem.java
+’0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/model/Star.java
+–0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/model/Universe.java
+‘0 CheckStyle Issues in C:/Users/Earmy/OneDrive/Skrivebord/software technology program/UML/assignment2/clone/a2/app/src/main/java/view/Menu.java
+&0 FindBugs Issues in model/Star.java
+*0 FindBugs Issues in controller/App.java
+(0 FindBugs Issues in model/Planet.java
+%1 FindBugs Issues in view/Menu.java
+text:lines: 27-731 
+cnew view.Menu(SolarSystemController) may expose internal representation by storing an externally 
+3  mutable object into Menu.solarSystemController 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+
+&0 FindBugs Issues in model/Moon.java
+*0 FindBugs Issues in model/Universe.java
+-1 FindBugs Issues in model/SolarSystem.java
+text:lines: 24-159 
+SgetPlanets() may expose internal representation by returning SolarSystem.planets 
+NMay expose internal representation by returning reference to mutable object 
+cReturning a reference to a mutable object value stored in one of the object's fields exposes the 
+f  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+d  changes to the mutable object would compromise security or other important properties, you will 
+b  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+<0 FindBugs Issues in controller/SolarSystemController.java

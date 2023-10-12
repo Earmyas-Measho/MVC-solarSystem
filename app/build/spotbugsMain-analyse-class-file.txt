@@ -1,0 +1,8 @@
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\controller\App.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\controller\SolarSystemController.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\model\Moon.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\model\Planet.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\model\SolarSystem.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\model\Star.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\model\Universe.class
+C:\Users\Earmy\OneDrive\Skrivebord\software technology program\UML\assignment2\clone\a2\app\build\classes\java\main\view\Menu.class
